@@ -71,7 +71,7 @@ public class BookmarksActivity extends Activity {
 
 		TextView box = (TextView) findViewById(R.id.text);
 		//i don`t.... maybe i should use "text" variable here
-		box.setText(null);
+		box.setText(text);
 
 		Log.i(TAG, "Bookmarks loaded");
 	}
