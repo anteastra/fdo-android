@@ -1,25 +1,17 @@
 package com.example.alertdialogproject;
 
 import android.app.Activity;
-import android.app.ActionBar;
 import android.app.AlertDialog;
 import android.app.Dialog;
-import android.app.Fragment;
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.ViewGroup;
 import android.widget.Button;
-import android.os.Build;
 
 public class AlertDialogActivity extends Activity {
 	
 	private static final int ID_DIALOG_ALERT = 0;
-	private static final int ID_DIALOG_ALERT2 = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,8 +60,6 @@ public class AlertDialogActivity extends Activity {
     		dialog = alert;
     		
     		break;
-    	case ID_DIALOG_ALERT2:
-	    	break;
     	default:
     		dialog = null;
     	}
