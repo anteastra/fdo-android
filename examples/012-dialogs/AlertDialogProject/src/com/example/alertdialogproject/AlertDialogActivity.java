@@ -41,14 +41,14 @@ public class AlertDialogActivity extends Activity {
     		
     		builder.setCancelable(false);
     		
-    		builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+    		builder.setNegativeButton("Yes", new DialogInterface.OnClickListener() {
     			public void onClick(DialogInterface dialog, int id) {
     				// Закрываем текущий Activity
     				AlertDialogActivity.this.finish();
     			}
     		});
     		
-    		builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+    		builder.setPositiveButton("No", new DialogInterface.OnClickListener() {
     			public void onClick(DialogInterface dialogInt, int id) {
     				// Закрываем диалог и возвращаемся к текущему Activity
     				dialogInt.cancel();

@@ -41,7 +41,7 @@ public class ProgressDialogActivity extends Activity {
     	switch(id) {
     	case ID_PROGRESS:
     		dialog = new ProgressDialog(ProgressDialogActivity.this);
-    		dialog.setProgressStyle(ProgressDialog.STYLE_HORIZONTAL);
+    		dialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
     		dialog.setMessage("Loading...");
     		thread = new ProgressThread(handler);
     		thread.start();

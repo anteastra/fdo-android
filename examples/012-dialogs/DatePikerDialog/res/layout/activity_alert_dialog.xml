@@ -17,6 +17,14 @@
         android:text="TextView"
         android:textSize="20dp" />
 
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="TextView"
+        android:textSize="20dp" />
+
     <Button
         android:id="@+id/buttonAlertD"
         android:layout_width="fill_parent"
@@ -24,5 +32,14 @@
         android:layout_gravity="center"
         android:layout_margin="20dp"
         android:text="Show Date Picker" />
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Show Time Picker"
+        android:textSize="20dp" />
 
 </LinearLayout>
